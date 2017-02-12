@@ -1,6 +1,6 @@
-- name: yum update all
-  yum: name=* state=latest
-  become: true
+#- name: yum update all
+#  yum: name=* state=latest
+#  become: true
 
 - name: common user alias
   lineinfile:
